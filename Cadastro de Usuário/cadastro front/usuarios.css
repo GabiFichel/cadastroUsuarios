@@ -1,0 +1,167 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(135deg, #fdfdfd, #cfcfcf);
+    color: rgb(0, 0, 0);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 800px;
+    box-shadow: 0 0px 01px rgb(0, 0, 0);
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    background-color: white;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 4px;
+    text-align: left;
+}
+
+
+input {
+    width: 400px;
+    height: 30px;
+    border-radius: 8px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.btn-edit{
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(240, 184, 32);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-del{
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(240, 32, 32);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.top {
+   display: flex;
+   justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border-radius: 8px;
+}
+
+table {
+    width: 1000px;
+    margin-top: 20px;
+    border-collapse: collapse; /* remove bordas duplicadas */
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden; /* faz o border-radius funcionar */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); /* sombra real */
+}
+
+/* Cabeçalho */
+thead {
+    background-color: black;
+    color: white;
+}
+
+th {
+    padding: 14px;
+    text-align: left;
+}
+
+/* Células */
+td {
+    padding: 14px;
+    text-align: left;
+}
+
+/* Linha separadora suave */
+tbody tr {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Remove a última linha da borda */
+tbody tr:last-child {
+    border-bottom: none;
+}
+
+/* Efeito hover bonito */
+tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.usuario-info {
+    font-weight: bold;
+}
+
+#perfilUsuario {
+    margin-left: 8px;
+    padding: 4px 8px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+#btnLogout {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+
+#btnLogout:hover {
+    background: darkred;
+}
